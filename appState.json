@@ -1,0 +1,90 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "094a9cab-264d-4010-a5e2-b487766f0f57": {
+        "id": "094a9cab-264d-4010-a5e2-b487766f0f57",
+        "parent": null,
+        "name": "gcp-indu-lowa.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "gcp-indu-lowa.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "nodejs8",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0,
+          "name": "gcpInduLowa"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ]
+      },
+      "559d834f-bd68-4d96-abd8-37207c85914b": {
+        "id": "559d834f-bd68-4d96-abd8-37207c85914b",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js"
+      },
+      "8bb78375-1d51-4552-8090-348348ddd26f": {
+        "id": "8bb78375-1d51-4552-8090-348348ddd26f",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py"
+      }
+    },
+    "openFiles": [
+      "094a9cab-264d-4010-a5e2-b487766f0f57"
+    ],
+    "currentFileId": "094a9cab-264d-4010-a5e2-b487766f0f57",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      }
+    },
+    "customTemplate": {
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "gcp-indu-lowa",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-central1",
+    "platform": "GCP",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1586349480378
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "gcp-indu-lowa",
+      "url": "https://github.com/Indunil1992/gcp-indu-lowa"
+    }
+  }
+}
